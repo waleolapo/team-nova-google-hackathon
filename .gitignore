@@ -2,3 +2,4 @@
 __pycache__/
 .venv
 spec.md
+COMPLETION_LOG.md
