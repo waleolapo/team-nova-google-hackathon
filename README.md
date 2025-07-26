@@ -16,6 +16,7 @@ FarmWise AI helps Lagos farmers by providing personalized farming advice in Yoru
 3. Create `.env` file (copy `.env.example`) and add: GEMINI_API_KEY=your_gemini_key
 OPENWEATHERMAP_API_KEY=your_weather_key
 4. Run: `python src/main.py`
+5. Visit the application in your browser at `http://localhost:5000`.
 
 ## Docker Setup
 
@@ -31,6 +32,7 @@ To run the application using Docker, follow these steps:
     ```bash
     docker run -p 5000:5000 -e GEMINI_API_KEY='YOUR_GEMINI_API_KEY' -e OPENWEATHER_API_KEY='YOUR_OPENWEATHER_API_KEY' farmwise-ai
     ```
+3. Visit the application in your browser at `http://localhost:5000`.
 
 ## Dependencies
 - Flask==2.3.3
